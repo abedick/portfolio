@@ -1,4 +1,59 @@
 
+body {
+    /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;    */
+    font-family: 'Open Sans', sans-serif;   
+    background-color: #ffffff;
+    line-height: 1.125;
+}
+
+.navi {
+    text-transform: uppercase;
+}
+
+.header-blue {
+    background-color: #193d5c;
+    color: #fff;
+}
+
+.jumbotron-mod{
+    /* padding-left: 10px; */
+    padding: 2rem 0.5rem;
+}
+
+.row-mod{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.ico {
+    padding-right:6px;
+    vertical-align: top;
+}
+.ico-2 {
+    padding-right:6px;
+    /* vertical-align: top; */
+}
+
+.light{
+    font-weight: 100;
+}
+
+.name {
+    
+    font-size: 3rem;
+    font-weight: 200;
+    font-stretch: condensed;
+}
+
+.tag {
+    height: 100%;
+    /* padding-top: 6rem; */
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
 :root {
     --main-navbar-bg: #193d5c;
     --pre-navbar-bg: #001732;
@@ -6,12 +61,12 @@
 
 
 .c_left {
-    /* background-color: var(--main-navbar-bg); */
-    background: linear-gradient(to bottom right, #193d5c, #212121);
+    background-color: #193d5c;
+    /* background: linear-gradient(to bottom right, #193d5c, #212121); */
     color: #fff;
     letter-spacing: 0.5px;
     font-weight: 200;
-    font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;   
+    /* font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;    */
 
 }
 
@@ -46,7 +101,8 @@
     bottom: 0;
     float: left;
     overflow: scroll;
-    background: linear-gradient(to bottom right, #193d5c, #212121);
+    background: #193d5c;
+    /* background: linear-gradient(to bottom right, #193d5c, #212121); */
     color: #fff;
     letter-spacing: 0.5px;
     font-weight: 200;
@@ -117,6 +173,14 @@ li {
     font-size: 2rem;
     font-weight: 400;
     line-height: 1.2;
+    margin-bottom: 0rem;
+}
+
+.display-7 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 0rem;
 }
 
 
@@ -140,15 +204,8 @@ li {
 }
 
 
-
-body {
-    font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;   
-    background-color: #ffffff;
-    line-height: 1.25;
-}
-
-
 .card-1 {
+    background-color: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
